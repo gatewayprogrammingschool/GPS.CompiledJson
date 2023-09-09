@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS.CompiledJson", "GPS.CompiledJson\GPS.CompiledJson\GPS.CompiledJson.csproj", "{B082C6CE-092B-461E-BD6A-601C13D4B895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS.CompiledJson.Sample", "GPS.CompiledJson\GPS.CompiledJson.Sample\GPS.CompiledJson.Sample.csproj", "{105B7ED0-18DE-4799-B22E-27EBFC2019E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS.CompiledJson.Tests", "GPS.CompiledJson\GPS.CompiledJson.Tests\GPS.CompiledJson.Tests.csproj", "{2D9067E8-3995-450E-91FA-8374D94867DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B082C6CE-092B-461E-BD6A-601C13D4B895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B082C6CE-092B-461E-BD6A-601C13D4B895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B082C6CE-092B-461E-BD6A-601C13D4B895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B082C6CE-092B-461E-BD6A-601C13D4B895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105B7ED0-18DE-4799-B22E-27EBFC2019E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105B7ED0-18DE-4799-B22E-27EBFC2019E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105B7ED0-18DE-4799-B22E-27EBFC2019E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105B7ED0-18DE-4799-B22E-27EBFC2019E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9067E8-3995-450E-91FA-8374D94867DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9067E8-3995-450E-91FA-8374D94867DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9067E8-3995-450E-91FA-8374D94867DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9067E8-3995-450E-91FA-8374D94867DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

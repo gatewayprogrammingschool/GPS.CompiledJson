@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "properties": {
+    "customer": {
+      "type": "object",
+      "default": {},
+      "title": "The customer Schema",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "default": null,
+          "title": "The name Schema",
+          "examples": [
+            "test", null
+          ]
+        }
+      },
+      "examples": [{
+        "name": "test"
+      }]
+    },
+    "product": {
+      "type": "object",
+      "default": {},
+      "title": "The product Schema",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "default": 0,
+          "title": "The id Schema",
+          "examples": [
+            0
+          ]
+        }
+      },
+      "examples": [{
+        "id": 0
+      }]
+    },
+    "stock": {
+      "type": "object",
+      "default": {},
+      "title": "The stock Schema",
+      "required": [
+        "isAvailable"
+      ],
+      "properties": {
+        "isAvailable": {
+          "type": "boolean",
+          "default": false,
+          "title": "The isAvailable Schema",
+          "examples": [
+            false, true
+          ]
+        }
+      },
+      "examples": [{
+        "isAvailable": false
+      }]
+    },
+    "shop": {
+      "type": "object",
+      "default": {},
+      "title": "The shop Schema",
+      "required": [],
+      "properties": {},
+      "examples": [{}]
+    },
+    "employee": {
+      "type": "object",
+      "default": {},
+      "title": "The employee Schema",
+      "properties": {
+        "contacts": {
+          "type": "array",
+          "default": [],
+          "title": "The contacts Schema",
+          "items": {
+            "type": "object",
+            "default": {},
+            "title": "A Schema",
+            "required": [
+              "customer"
+            ],
+            "properties": {
+              "customer": {
+                "type": "object",
+                "default": {},
+                "title": "The customer Schema",
+                "required": [
+                  "name"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "default": null,
+                    "title": "The name Schema",
+                    "examples": [
+                      "test"
+                    ]
+                  }
+                },
+                "examples": [{
+                  "name": "test"
+                }]
+              }
+            },
+            "examples": [{
+              "customer": {
+                "name": "test"
+              }
+            }]
+          },
+          "examples": [
+            [{
+              "customer": {
+                "name": "test"
+              }
+            }]
+          ]
+        }
+      },
+      "examples": [{
+        "contacts": [{
+          "customer": {
+            "name": "test"
+          }
+        }]
+      }]
+    }
+  },
+  "examples": [{
+  },{
+	"customer":{
+		"name":"test"
+	}
+  },{
+	"product":{
+		"id":100
+	}
+  },{"stock": {
+      "isAvailable": false
+    }
+  },{
+    "shop": {}
+  },
+  {
+    "customer": {
+      "name": "test"
+    },
+    "product": {
+      "id": 0
+    },
+    "stock": {
+      "isAvailable": false
+    },
+    "shop": {},
+    "employee": {
+      "contacts": [{
+        "customer": {
+          "name": "test"
+        }
+      }]
+    }
+  }]
+}
